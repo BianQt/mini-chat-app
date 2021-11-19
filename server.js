@@ -3,6 +3,7 @@ const http = require("http");
 const express = require("express");
 const app = express();
 const server = http.createServer(app);
+const port = process.env.PORT || 8000;
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
@@ -32,6 +33,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(8000, () => {
+server.listen(port, () => {
   console.log("Server is running on port 8000");
 });

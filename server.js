@@ -18,6 +18,8 @@ io.on("connection", (socket) => {
     users[socket.id] = userName;
     console.log(userName);
     socket.broadcast.emit("user-connected", userName);
+    io.emit("users-list", users);
+
   });
 
   socket.on("send-chat-message", (message) => {
@@ -30,6 +32,7 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => {
     socket.broadcast.emit("user-disconnected", users[socket.id]);
     delete users[socket.id];
+    io.emit("users-list", users);
   });
 });
 

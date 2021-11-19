@@ -1,69 +1,149 @@
+h3 {
+  margin: 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+p {
+  margin: 10px 0;
+}
+header{
+  background: linear-gradient(150deg, #e68729 15%, #e6b71e 70%, #ffec42 94%);
+  padding: 0 3em;
+}
+img{
+  height: 6em;
+}
 form {
   padding-top: 5em;
   padding-left: 5%;
   padding-bottom: 3%;
-  background-color: rgb(77, 89, 97);
+  border-bottom-left-radius: .7em;
+  border-bottom-right-radius: .7em;
 }
 .side-bar {
   width: 20%;
-  height: 100px;
+  box-sizing: border-box;
+  padding: 1em 2.5em;
   margin: 1em;
   float: left;
-  background-color: rgb(245, 248, 250);
-  min-height: 40.5em;
+  border-radius: .7em;
+  min-height: 43.5em;
+  height: fit-content;
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  background-color: rgb(227 139 51);
+}
+
+.side-bar h2  {
+  font-size: 2em;
+}
+
+.side-bar p{
+  margin: 1em 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.side-bar h3{
+  background-color: #b96413;
+    font-size: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    top: 1.5em;
+    left: 10em;
 }
 
 .msg-area {
-  width: 70%;
+  width: 74%;
   height: 100px;
   float: left;
   margin: 1em 0 0;
-  background-color: rgb(77, 89, 97);
+  border-radius: 0.7em;
+  padding: 2em 1em 1em;
+  min-height: 30em;
+  height: fit-content;
+  background-color: rgb(246 242 225);
 }
 
 #message-container {
-  background-color: inherit;
   min-height: 30em;
   text-align: center;
 }
 
 input {
   width: 85%;
-  height: 3em;
+  height: 3.5em;
   border-radius: 5em;
   background-color: whitesmoke;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid grey;
 }
 
 button {
   width: 10%;
-  height: 3em;
-  background-color: yellowgreen;
+  height: 2.5em;
+  background-color: #d38e44;
+  color: white;
+  border: 0;
   border-radius: 2em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  position: relative;
+  right: 0.3em;
+  top: 0.15em;
 }
 
 .new-user {
   margin: 2% auto;
-  background-color: whitesmoke;
+  background-color: #fbe33c;
   border-radius: 5em;
   padding: 0.5em 1em;
   max-width: fit-content;
-  height: 1.3em;
   font-weight: bold;
-  font-size: 1.2em;
-  color: rgb(95, 94, 94);
+  font-size: 1.1em;
+  
 }
 
-.new-msg {
+
+.new-msg-right p{
   text-align: left;
-  padding: 0 5em;
-  margin: 2em;
-  min-height: max-content;
-
+  padding: 0.1em 2em;
+  margin: .7em 2em;
+  width: 30em;
+  min-height: 3em;
+  background-color: white;
+  border-bottom-right-radius: 5em;
+  border-top-right-radius: 5em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
 }
-
-.user {
+.new-msg-left p{
+  text-align: right;
+  padding: 0.1em 2em;
+  margin: 0.7em 37em;
+  width: 30em;
+  min-height: 3em;
+  background-color: #d38e44;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 5em;
+  border-top-left-radius: 5em;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* .user {
   float: left;
   border-radius: 100%;
   background-color: honeydew;
@@ -71,7 +151,7 @@ button {
   font-size: 35px;
   width: 45px;
   height: 40px;
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .msg {
   float: left;
@@ -83,4 +163,4 @@ button {
   font-size: 1em;
   padding: 5px;
   margin-bottom: 2em;
-}
+} */

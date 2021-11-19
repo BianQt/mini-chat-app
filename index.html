@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mini Chat</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="/client.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div>
+      <div id="all-users" class="side-bar"></div>
+      <div class="msg-area">
+        <div id="message-container">
+            <!-- <div class="new-user">Bayan has joined</div>
+            <div class="new-msg">
+                <div class="user">B</div>
+                <div class="msg">dfghjkl;</div>
+            </div> -->
+        </div>
+        <form id="send-message">
+          <input type="text" id="message-input" />
+          <button type="submit" id="send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "mini-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BianQt/mini-chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BianQt/mini-chat-app/issues"
+  },
+  "homepage": "https://github.com/BianQt/mini-chat-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0"
+  }
+}

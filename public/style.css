@@ -1,0 +1,86 @@
+form {
+  padding-top: 5em;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  background-color: rgb(77, 89, 97);
+}
+.side-bar {
+  width: 20%;
+  height: 100px;
+  margin: 1em;
+  float: left;
+  background-color: rgb(245, 248, 250);
+  min-height: 40.5em;
+}
+
+.msg-area {
+  width: 70%;
+  height: 100px;
+  float: left;
+  margin: 1em 0 0;
+  background-color: rgb(77, 89, 97);
+}
+
+#message-container {
+  background-color: inherit;
+  min-height: 30em;
+  text-align: center;
+}
+
+input {
+  width: 85%;
+  height: 3em;
+  border-radius: 5em;
+  background-color: whitesmoke;
+}
+
+button {
+  width: 10%;
+  height: 3em;
+  background-color: yellowgreen;
+  border-radius: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.new-user {
+  margin: 2% auto;
+  background-color: whitesmoke;
+  border-radius: 5em;
+  padding: 0.5em 1em;
+  max-width: fit-content;
+  height: 1.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(95, 94, 94);
+}
+
+.new-msg {
+  text-align: left;
+  padding: 0 5em;
+  margin: 2em;
+  min-height: max-content;
+
+}
+
+.user {
+  float: left;
+  border-radius: 100%;
+  background-color: honeydew;
+  text-align: center;
+  font-size: 35px;
+  width: 45px;
+  height: 40px;
+  margin-right: .3em;
+}
+.msg {
+  float: left;
+  width: 90%;
+  background-color: rgb(252, 252, 252);
+  border-radius: 5em;
+  height: 40px;
+  margin-right: 1em;
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 2em;
+}
